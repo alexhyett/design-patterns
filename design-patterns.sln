@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BadCakeProgram", "BadCakeProgram\BadCakeProgram.csproj", "{7C5B870E-2604-4E2B-BD02-CA4E3D888D49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyCakeProgram", "Strategy\StrategyCakeProgram.csproj", "{A2E76C4A-6AB7-4D3A-9218-433F3BC893F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5B870E-2604-4E2B-BD02-CA4E3D888D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5B870E-2604-4E2B-BD02-CA4E3D888D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5B870E-2604-4E2B-BD02-CA4E3D888D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5B870E-2604-4E2B-BD02-CA4E3D888D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E76C4A-6AB7-4D3A-9218-433F3BC893F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E76C4A-6AB7-4D3A-9218-433F3BC893F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E76C4A-6AB7-4D3A-9218-433F3BC893F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E76C4A-6AB7-4D3A-9218-433F3BC893F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4677878-D728-4C25-9577-779242C3C1C0}
+	EndGlobalSection
+EndGlobal
