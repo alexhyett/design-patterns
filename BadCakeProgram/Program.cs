@@ -1,6 +1,4 @@
-﻿using System;
-
-public class BadCakeProgram
+﻿public class BadCakeProgram
 {
     public static void Main(string[] args)
     {
@@ -124,10 +122,3 @@ public class BadCakeProgram
     }
 
 }
-
-
-
-
-
-
-
