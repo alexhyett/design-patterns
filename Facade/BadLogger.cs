@@ -1,6 +1,6 @@
 public class BadLogger
 {
-    public void Log(string message, LogType logType, Exception? ex)
+    public void Log(string message, LogType logType, LogTarget target, Exception? ex)
     {
         Console.WriteLine($"{DateTime.UtcNow:s} [{logType.ToString().ToUpper()}] {message}");
 

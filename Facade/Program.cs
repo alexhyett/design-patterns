@@ -3,8 +3,8 @@
 // Using the bad logger
 var badLogger = new BadLogger();
 
-badLogger.Log("This is an information message", LogType.Info, null);
-badLogger.Log("This is an error message", LogType.Error, null);
+badLogger.Log("This is an information message", LogType.Info, LogTarget.Console, null);
+badLogger.Log("This is an error message", LogType.Error, LogTarget.Console, null);
 
 try
 {
@@ -12,7 +12,7 @@ try
 }
 catch (Exception ex)
 {
-    badLogger.Log("This is an error message with exception", LogType.Error, ex);
+    badLogger.Log("This is an error message with exception", LogType.Error, LogTarget.Console, ex);
 }
 
 try
@@ -21,7 +21,7 @@ try
 }
 catch (Exception ex)
 {
-    badLogger.Log("This is a fatal error message", LogType.Fatal, ex);
+    badLogger.Log("This is a fatal error message", LogType.Fatal, LogTarget.Console, ex);
 }
 
 // Using the good logger

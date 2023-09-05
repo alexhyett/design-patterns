@@ -8,16 +8,16 @@ public class Logger : ILogger
 
     public void Information(string message)
     {
-        _logger.Log(message, LogType.Info, null);
+        _logger.Log(message, LogType.Info, LogTarget.Console, null);
     }
 
     public void Error(string message, Exception? ex = null)
     {
-        _logger.Log(message, LogType.Error, ex);
+        _logger.Log(message, LogType.Error, LogTarget.Console, ex);
     }
 
     public void Fatal(string message, Exception? ex = null)
     {
-        _logger.Log(message, LogType.Fatal, ex);
+        _logger.Log(message, LogType.Fatal, LogTarget.Console, ex);
     }
 }
