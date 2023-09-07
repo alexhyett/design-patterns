@@ -1,4 +1,4 @@
-public class BadLogger
+public class BadLogger : IBadLogger
 {
     public void Log(string message, LogType logType, LogTarget target, Exception? ex)
     {

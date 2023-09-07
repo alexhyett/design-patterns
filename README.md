@@ -12,3 +12,7 @@ I came up with the following 5 Design Patterns:
 3. [Observer Pattern](Observer)
 4. [Singleton Pattern](Singleton)
 5. [Facade Pattern](Facade)
+
+To run them just `cd` into each folder and run `dotnet run`.
+
+Note: You will need the .Net Core SDK installed to run these.

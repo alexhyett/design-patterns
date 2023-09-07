@@ -1,6 +1,6 @@
 public class Logger : ILogger
 {
-    private readonly BadLogger _logger;
+    private readonly IBadLogger _logger;
     public Logger()
     {
         _logger = new BadLogger();
