@@ -16,7 +16,7 @@ In case you also want to move a repository, here's how I moved this repository:
 4. Commit the changes: `git commit -m "Moved project"`
 4. Delete the `main` branch: `git branch -D main`
 5. Rename the current branch to `main`: `git branch -m main`
-6. Force push to main: `cd`
+6. Force push to main: `git push -f origin main`
 
 After that I archived the GitHub repository, effectively setting it to read-only and updated the description accordingly.
 
